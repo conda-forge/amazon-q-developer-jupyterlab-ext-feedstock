@@ -1,5 +1,5 @@
 {% set name = "amazon-q-developer-jupyterlab-ext" %}
-{% set version = "3.3.0" %}
+{% set version = "3.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/amazon-q-developer-jupyterlab-ext-{{ version }}.tar.gz
-  sha256: 2623eef219e743291c955c94c22b75f3b6334cfe9c46e72779b448b5c439743b
+  sha256: bce5d4bcb6e862fa51274511d6c842d555ffb12338f79e36c69d7f1d13339245
 
 build:
   noarch: python
