@@ -1,5 +1,5 @@
 {% set name = "amazon-q-developer-jupyterlab-ext" %}
-{% set version = "3.4.5" %}
+{% set version = "3.4.7" %}
 
 package:
   name: {{ name|lower }}
