@@ -21,7 +21,7 @@ requirements:
     - jupyterlab >=4.0,<5.dev0
     - pip
   run:
-    - python >={{ python_min }}
+    - python {{ python_min }}
     - boto3
     - botocore
     - aiobotocore
