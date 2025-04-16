@@ -16,12 +16,12 @@ build:
 
 requirements:
   host:
-    - python {{ python_min }}
+    - python >={{ python_min }}
     - jupyter_packaging >=0.10,<1.dev0,<2
     - jupyterlab >=4.0,<5.dev0
     - pip
   run:
-    - python {{ python_min }}
+    - python >={{ python_min }}
     - boto3
     - botocore
     - aiobotocore
